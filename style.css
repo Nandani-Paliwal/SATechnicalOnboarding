@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    overflow-y: hidden;
+    overflow: hidden;
     margin: 0%;
     padding: 0%;
     background-color: #E6DBD3;
