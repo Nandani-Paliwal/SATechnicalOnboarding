@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    overflow-y: hidden;
+    margin: 0%;
+    padding: 0%;
+    background-color: #E6DBD3;
+}
+.container
+{
+    display: flex;  
+    flex-direction: column;
+    /* justify-content: start;
+    align-items: center; */
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-family: 'Poppins', sans-serif;
+}
+.name a {
+    text-decoration: none;
+    color: black;
+}
+.name{
+    letter-spacing: 0.2rem;
+    margin: 2rem;
+    padding: 1rem;
+    align-content: center;
+}
+/* .btn-abt, .btn-proj{
+    border-radius: 10px;
+    padding: 0.8rem;
+    margin: 2rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Poppins', sans-serif;
+} */
+.about{
+    text-align: center;
+    letter-spacing: 0.3rem;
+   
+    padding: 1.5rem;
+    margin: 1.2rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.about h1{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+}
+.about h3{
+    font-family: 'Poppins', sans-serif;
+}
+.foooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.github{
+    margin: 0rem 2rem;
+    padding: 0rem 2rem;
+}
+.socials
+{
+    position: relative;
+    top: 7rem;
+    right: 0%;
+    left: 11rem;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;  
+}
+.img{
+    justify-content: end;
+    position: relative;
+    left: 30rem;
+    right: 0;
+    top: 4rem;
+    bottom: 0%;
+    opacity: 0.5;
+}
