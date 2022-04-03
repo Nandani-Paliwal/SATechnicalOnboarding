@@ -69,20 +69,20 @@
 }
 .socials
 {
-    /* position: relative;
+    position: relative;
     top: 2rem;
     right: 0%;
     left: 11rem;
-    bottom: 0%; */
+    bottom: 0%;
     display: flex;
     flex-direction: row;  
 }
 .img{
     justify-content: end;
-    /* position: relative;
+    position: relative;
     left: 28rem;
     right: 0;
     top: auto;
-    bottom: 0%; */
+    bottom: 0%;
     opacity: 0.5;
 }
