@@ -30,13 +30,6 @@
     padding: 1rem;
     align-content: center;
 }
-/* .btn-abt, .btn-proj{
-    border-radius: 10px;
-    padding: 0.8rem;
-    margin: 2rem;
-    letter-spacing: 0.2rem;
-    font-family: 'Poppins', sans-serif;
-} */
 .about{
     display: flex;
     flex-direction: column;
@@ -83,15 +76,9 @@
 }
 @media screen and (max-width: 600){
     .about h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
-    .about{
-        font-weight: 500;
-        letter-spacing: 00.1rem;
-        font-size: 1rem;
-    }
-    .socials{
-        margin-top: auto;
-       margin-left: auto; 
+    .img, .img-S{
+        width: 25%;
     }
 }
