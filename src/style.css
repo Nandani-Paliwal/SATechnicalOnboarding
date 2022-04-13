@@ -52,8 +52,6 @@
     font-size: 4rem;
     margin: 2rem;
 }
-
-}
 .about h3{
     font-family: 'Poppins', sans-serif;
 }
@@ -91,4 +89,9 @@
     bottom: 0%; */
     opacity: 0.5;
     margin-left: auto;
+}
+@media screen and (max-width: 600){
+    .about h1{
+        font-size: 2rem;
+    }
 }
