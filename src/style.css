@@ -38,10 +38,12 @@
     font-family: 'Poppins', sans-serif;
 } */
 .about{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     letter-spacing: 0.3rem;
-    padding: 1.5rem;
-    margin: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
@@ -71,33 +73,25 @@
     justify-content: center;
     margin-left: 34rem;
     margin-top: 6rem;
-    /* position: relative;
-    top: 2rem;
-    right: 0%;
-    left: 11rem;
-    bottom: 0%; */
 }
 .img{
     display: flex;
     flex-direction: row;
     justify-content: end;
-    /* position: relative;
-    left: 28rem;
-    right: 0;
-    top: auto;
-    bottom: 0%; */
     opacity: 0.5;
     margin-left: auto;
 }
 @media screen and (max-width: 600){
     .about h1{
         font-size: 1rem;
-        font-weight: 500;
-        margin: auto;
     }
     .about{
         font-weight: 500;
-        margin: auto;
-        letter-spacing: 00.2rem;
+        letter-spacing: 00.1rem;
+        font-size: 1rem;
+    }
+    .socials{
+        margin-top: auto;
+       margin-left: auto; 
     }
 }
